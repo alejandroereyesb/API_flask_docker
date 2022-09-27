@@ -6,7 +6,7 @@ Ejemplo de API REST hecha con Python, Flask y Docker.
     - `GET http://localhost:5000/user/all`
 ​
 - Para obtener un usuario por nombre:
-    - `GET http://localhost:5000/user?name="muchelle"`
+    - `GET http://localhost:5000/user?name=guilledevelawyer`
 
 - Para crear un usuario:
     - `POST http://localhost:5000/user`
@@ -15,7 +15,7 @@ Body:
 ```javascript 
 {
   "name": "miguel",
-  "email": "miguel@gmail.com"
+  "email": "nievas@gmail.com"
 }
 ```
 
@@ -25,8 +25,8 @@ Body:
 Body:
 ```javascript 
 {
-"email": "alejandru@gmail.com",
-"name":"alejandru"
+"email": "malaga@gmail.com",
+"name":"albertomalaga"
 }
 ```
 
@@ -36,10 +36,10 @@ Body:
 Body:
 ```javascript 
 {
-"email": "alejandru@gmail.com",
-"name":"alejandru",
-"new_email":"juampy@gmail.com",
-"new_name":"juampy"
+"email": "alejandruregex@gmail.com",
+"name":"alejandruregex",
+"new_email":"alejandro.reyes@gmail.com",
+"new_name":"alejandroreyes"
 }
 ```
 
